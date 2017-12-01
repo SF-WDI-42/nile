@@ -19,6 +19,6 @@ $(document).ready(function() {
     }
   ];
   for(let i = 0; i<products.length; i++) {
-    $(".products-container").append(`<div><h4 class="product-title">${products[i].name}</h4><p>${products[i].description}</p>$${products[i].price}</div>`)
+    $(".products-container").append(`<div class="product"><h4 class="product-title">${products[i].name}</h4><p>${products[i].description}</p>$${products[i].price}</div>`)
   }
 })
